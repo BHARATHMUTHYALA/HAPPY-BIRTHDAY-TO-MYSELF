@@ -55,7 +55,7 @@ img:hover {
   color: chartreuse;
   display: none;
 }
-#disclaimer {
+#disclaimer span {
   background-color: red;
   color: aliceblue;
 }

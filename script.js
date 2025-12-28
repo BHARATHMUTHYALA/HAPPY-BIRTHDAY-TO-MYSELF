@@ -20,13 +20,13 @@ window.addEventListener("load", function () {
     } else {
       console.log("they dont care");
     }
-  } else {
-    const elements = document.querySelectorAll(".lyrics");
-
-    setTimeout(() => {
-      elements.forEach((element) => {
-        element.style.display = "block";
-      });
-    }, LYRICS_DELAY);
   }
+
+  const elements = document.querySelectorAll(".lyrics");
+
+  setTimeout(() => {
+    elements.forEach((element) => {
+      element.style.display = "block";
+    });
+  }, LYRICS_DELAY);
 });
