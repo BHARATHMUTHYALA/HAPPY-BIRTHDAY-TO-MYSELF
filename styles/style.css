@@ -16,7 +16,7 @@ body {
 }
 h1 {
   text-align: center;
-  color: white;
+  color: rgb(166, 226, 202);
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -52,13 +52,24 @@ img:hover {
   gap: 20px;
 }
 .lyrics {
-  color: chartreuse;
+  color: rgba(16, 206, 35, 0.918);
   display: none;
 }
-#disclaimer span {
-  background-color: red;
+#disclaimer {
+  background-color: rgba(7, 4, 82, 0.349);
   color: aliceblue;
+  margin-left: 20px;
+  width: 100%;
+
+  padding: 4px;
+
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+/* #disclaimer span {
+  display: block;
+} */
 
 .audio {
   display: flex;
