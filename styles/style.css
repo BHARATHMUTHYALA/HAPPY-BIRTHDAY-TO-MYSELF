@@ -1,0 +1,69 @@
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  color: white;
+  background-image: url("../assets/stars.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+header h1.title {
+  font-size: 5rem;
+}
+
+img {
+  height: 300px;
+  margin: 20px;
+}
+
+@keyframes weirdimages {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img:hover {
+  cursor: pointer;
+  animation: weirdimages 2s forwards;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.lyrics {
+  color: chartreuse;
+  display: none;
+}
+#disclaimer {
+  background-color: red;
+  color: aliceblue;
+}
+
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  margin: 20px;
+}
