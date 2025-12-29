@@ -29,4 +29,12 @@ window.addEventListener("load", function () {
       element.style.display = "block";
     });
   }, LYRICS_DELAY);
+
+  const button = document.getElementsByTagName("button")[0];
+
+  function handleClick() {
+    const result = document.getElementById("result");
+    result.textContent = "Thank You";
+  }
+  button.addEventListener("click", handleClick);
 });
